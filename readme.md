@@ -4,6 +4,17 @@ This project consists of a web application designed to be served by an ESP32-CAM
 
 ## Installation
 
+### Install node on Jetson
+
+```
+wget https://nodejs.org/dist/v12.13.0/node-v12.13.0-linux-arm64.tar.xz
+tar -xJf node-v12.13.0-linux-arm64.tar.xz
+cd node-v12.13.0-linux-arm64
+sudo cp -R * /usr/local/
+node -v
+npm -v
+```
+
 Navigate to the project folder and use the package manager [npm](https://www.npmjs.com/) to install the project dependencies.
 
 ```bash
